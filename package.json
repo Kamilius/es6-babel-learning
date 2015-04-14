@@ -1,7 +1,7 @@
 {
   "name": "es6angular",
   "version": "0.0.1",
-  "description": "\"Short TODO list on AngularJS with Gulp task runner to learn how Gulp works\"",
+  "description": "\"Short TODO list on AngularJS with Gulp task runner to learn how Gulp and ES6 works\"",
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^3.8.11",

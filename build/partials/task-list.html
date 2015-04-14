@@ -1,0 +1,9 @@
+<div class="row panel panel-default">
+  <div class="panel-body col-xs-12">
+    <ul class="list-unstyled">
+      <li ng-repeat="task in tasks">
+        {{ task.name }} - {{ task.date | date: 'medium' }}
+      </li>
+    </ul>
+  </div>
+</div>

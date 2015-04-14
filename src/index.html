@@ -2,11 +2,22 @@
 <html ng-app="todoList">
 <head>
   <title>TODO list - ES6(babel) + AngularJS</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+  <!-- Custom styles -->
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-  <div ng-view></div>
+  <!-- Views container -->
+  <div class="container" ng-view></div>
+
+  <!-- Scripts bootstrapping section -->
   <script src="scripts/angular.min.js" type="text/javascript"></script>
+  <script src="scripts/angular-route.min.js" type="text/javascript"></script>
   <script src="script.js" type="text/javascript"></script>
 </body>
 </html>
